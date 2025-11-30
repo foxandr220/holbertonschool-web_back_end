@@ -1,2 +1,3 @@
+#!/usr/bin/env bash
 // create or use my_db
-echo "use my_db" | mongo
+echo 'db.getMongo().getDB("my_db")' | mongo --quiet
