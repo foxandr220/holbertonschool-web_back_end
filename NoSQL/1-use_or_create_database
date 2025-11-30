@@ -1,6 +1,2 @@
-// Database creation script
-# Создаем файл с правильным содержимым
-echo "use my_db" > 1-use_or_create_database
-
-# Проверяем содержимое файла
-cat 1-use_or_create_database
+// create or use my_db
+echo "use my_db"
